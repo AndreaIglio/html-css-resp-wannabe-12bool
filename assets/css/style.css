@@ -1,3 +1,32 @@
-h1 {
-  font-size: 120px;
+section {
+  text-align: center;
+  margin-top: 80px;
 }
+
+[class*="col-"] {
+  text-align: center;
+}
+
+[class*="col-"] > img {
+  height: 200px;
+}
+
+[class*="col-"] > h3 {
+  margin: 20px 0;
+}
+
+.container > .row {
+  margin-top: 40px;
+}
+
+
+
+
+/* steps */
+
+#steps {
+  background-color: lightgrey;
+}
+
+
+/* /steps */
