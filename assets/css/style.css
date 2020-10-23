@@ -42,7 +42,16 @@ section {
 /* /#steps */
 
 /* #why */
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 25px;
+}
 
+#why [class*="col-"] {
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
 /* /#why */
 
 /* /SECTIONS */
@@ -58,6 +67,10 @@ section {
     margin-top: 0px;
   }
 
+  p {
+    padding: 0 15px;
+  }
+
 }
 
 /* /medium screen */
@@ -71,19 +84,17 @@ section {
     margin-top: 10px;
   }
 
-
-
   [class*="col-"] > img {
     height: 150px;
   }
 
 
-  .container > .row {
-    /* margin-top: 10px; */
-  }
-
   [class*="col-"] {
   margin-top: 20px;
+  }
+
+  p {
+    padding: 0 15px;
   }
 
 }
